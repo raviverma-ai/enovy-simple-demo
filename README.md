@@ -24,7 +24,7 @@ python3 -m venv venv
 
 **Running envoy:**
 1) Naviagate to envoy-simple demo
-2) Run "envoy -c <path to config file>" e.g. envoy -c stationay-envoy-demo.yaml
+2) Run "envoy -c \<path to config file\>" e.g. envoy -c stationay-envoy-demo.yaml
 
 **Accessing service via envoy proxy:**
 1) Run "curl -v localhost:9001/stationaries". This should return response from stationaries service.
